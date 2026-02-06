@@ -28,6 +28,11 @@
 
 .header__links-list-item_no-bullit {
   list-style: none;
+  
+}
+
+.header__link__no-line {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -45,31 +50,22 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-self: end;
   font-style: normal;
   font-size: 18px;
   max-width: 240px;
 }
 
 .header__address {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
+  justify-self: end;
 }
 
 .cover {
   position: relative;
   min-height: 757px;
-  padding: 0;
+  padding: 165px 50px 0 50px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-}
-
-.cover__title,
-.cover__description {
-  position: relative;
-  z-index: 2;
 }
 
 .overlay {
@@ -77,6 +73,11 @@
   background-color: rgba(0, 0, 0, 0.6);
   inset: 0;
   z-index: 1;
+}
+
+.cover__content {
+  position: relative;
+  z-index: 2;
 }
 
 .cover__title {
@@ -89,7 +90,7 @@
   font-weight: 700;
   line-height: 115px;
   letter-spacing: 0.3em;
-  margin: 165px 50px 106px 50px;
+  margin: 0px 0px 106px 0px;
 }
 .aligned-text_left {
   display: block;
@@ -119,7 +120,7 @@
   display: flex;
   align-items: center;
   gap: 107px;
-  margin: 106px 50px 50px 50px;
+  margin: 0;
 }
 
 .cover__description-text {
@@ -138,7 +139,7 @@
   font-size: 22px;
   font-weight: 500;
   text-transform: uppercase;
-  border-color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .lots {
@@ -268,43 +269,18 @@
   margin-top: 100px;
   align-items: center;
 }
-/* 
-.about__text {
-  display: block;
-  font-size: 20px;
-  line-height: 24px;
-  
-  
-} */
 
-.about__text__top {
+.about__text {
   display: block;
   font-size: 20px;
   line-height: 24px;
   width: 688px;
 }
 
-.about__text__buttom {
-  display: block;
-  font-size: 20px;
-  line-height: 24px;
-}
-
 .footer {
   padding: 180px 50px 82px 50px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-}
-
-.footer__address {
-  line-height: 24.3px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-self: start;
-  font-style: normal;
-  font-size: 18px;
-  max-width: 264.57px;
 }
 
 .footer__menu {
@@ -319,17 +295,16 @@
   text-align: center;
   min-width: 164px;
   font-size: 18px;
-  text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
 
-.footer__menu-list-item__no-line {
-  list-style: none;
-  text-align: center;
-  min-width: 164px;
-  font-size: 18px;
+.footer__menu-link__no-line {
   text-decoration: none;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
