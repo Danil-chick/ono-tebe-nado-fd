@@ -12,8 +12,6 @@ body {
   padding-left: 50px;
 }
 
-
-
 .header__links-list {
   display: flex;
   justify-content: center;
@@ -163,7 +161,6 @@ body {
   margin-bottom: 30px;
 }
 
-
 .lots__card-list-item {
   display: flex;
   min-width: 334px;
@@ -180,7 +177,7 @@ body {
   justify-content: space-between;
   height: 100%;
   padding: 48px 40px 48px 40px;
-} 
+}
 
 .card__title,
 .card__text {
@@ -188,11 +185,10 @@ body {
   z-index: 2;
 }
 
-
 .card__title {
   height: 100%;
   text-transform: uppercase;
-  font-size: 22px ;
+  font-size: 22px;
   color: #ffffff;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -201,12 +197,11 @@ body {
 }
 
 .card__text {
-  font-size: 20px ;
+  font-size: 20px;
   color: #ffffff;
   font-weight: 400;
   line-height: 120%;
   margin-bottom: auto;
-  
 }
 
 .card_type_film {
@@ -236,11 +231,7 @@ body {
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: 25px;
-  
-
 }
-
-
 
 .about__logo {
   display: flex;
@@ -258,21 +249,18 @@ body {
 .about__logo-image {
   width: 148px;
   height: 114px;
-
 }
 
 .about-column {
   display: flex;
   margin-top: 133px;
-  
 }
 
 .about__title {
-text-transform: uppercase;
-font-size: 40px;
-font-weight: 700;
-margin-top: 3px;
-
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 3px;
 }
 
 .about__textwrap {
@@ -281,8 +269,6 @@ margin-top: 3px;
   gap: 24px;
   margin-top: 100px;
   align-items: center;
-  
-
 }
 /* 
 .about__text {
@@ -301,12 +287,9 @@ margin-top: 3px;
 }
 
 .about__text__buttom {
- display: block;
+  display: block;
   font-size: 20px;
   line-height: 24px;
-  
-  
-
 }
 
 .footer {
@@ -326,8 +309,6 @@ margin-top: 3px;
   max-width: 264.57px;
 }
 
-
-
 .footer__menu {
   display: flex;
   flex-direction: column;
@@ -336,10 +317,23 @@ margin-top: 3px;
 }
 
 .footer__menu-list-item {
-list-style: none;
-text-align: center;
-min-width: 164px;
-font-size: 18px;
+  list-style: none;
+  text-align: center;
+  min-width: 164px;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.footer__menu-list-item__no-line {
+  list-style: none;
+  text-align: center;
+  min-width: 164px;
+  font-size: 18px;
+  text-decoration: none;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .footer__social-list {
@@ -348,7 +342,7 @@ font-size: 18px;
   justify-self: flex-end;
   gap: 48px;
   list-style: none;
-  
+
   letter-spacing: 0%;
 }
 
